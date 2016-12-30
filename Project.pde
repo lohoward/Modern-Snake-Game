@@ -1,4 +1,4 @@
-/*Louise Howard 16781645
+/*Louise Howard
  *modern take on snake
  */
 
@@ -21,16 +21,16 @@ void setup()
 {
   fullScreen(P3D);
   frameRate(10);
-  //achieved watching various tutorials
+  
+  
   Box = new ArrayList<BoxPart>();
   Box.add(new BoxPart(300, 200));
   food = new BoxFood();
   smooth();
   face = (BoxPart)Box.get(0);
   gameFinished = false;
-  //
-  
-  //load soundfile - CS171 Lab 3
+
+
   minim = new Minim(this);
   beat = minim.loadFile("beat.aiff");
   beat.loop();
@@ -65,7 +65,7 @@ void draw()
 }
 
 //controls
-//From lab3
+
 void keyPressed() 
 {
   if(keyPressed)
@@ -95,7 +95,7 @@ void keyPressed()
   }
 }
 
-//declare route the box takes - I used a switch statement
+//declare route the box takes
 void moveFace()
 {
   switch(route)
