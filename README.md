@@ -1,2 +1,3 @@
 # Modern-Snake-Game
-A twist on the old snake game made on processing
+A twist on the old snake game
+Using Processing
