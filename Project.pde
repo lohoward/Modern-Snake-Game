@@ -1,4 +1,4 @@
-/*Louise Howard
+/*Author: Louise Howard
  *modern take on snake
  */
 
